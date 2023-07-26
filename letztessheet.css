@@ -1,0 +1,54 @@
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  button.weiter_button {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d29ac;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button.weiter_button:hover {
+    background-color: #820d80;
+  }
+  

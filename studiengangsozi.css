@@ -1,0 +1,88 @@
+/* Center the content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  } 
+    /*Menüleiste*/
+      /* Neuer Stil für das Bild */
+  .navbar img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  /* Basis-Styling für die Startleiste */
+  .navbar {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #4e4949;
+    }
+    
+    /* Stil für einzelne Menüpunkte (Listenelemente) */
+    .navbar li {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    
+    /* Stil für Links (anklickbare Elemente) */
+    .navbar li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Hover-Effekt für die Links */
+    .navbar li a:hover {
+      background-color: #555;
+    }
+    
+    /* Optional: Aktiver Link-Stil */
+    .navbar li a.active {
+      background-color: #2249b6;
+    }
+  
+    @media (max-width: 768px) {
+      /* Stiländerungen für button auf kleineren Bildschirmen */
+      .navbar li {
+        font-size: 24px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      /* Stiländerungen für button auf kleineren Bildschirmen */
+      .navbar li a {
+        font-size: 24px;
+      }
+    }
+  
+    /*Stil Buttons*/
+  
+    button{
+      text-align: right;
+      margin-top: 360px;
+      border: 1px solid #6f12ad;
+      padding: 10px 10px;
+      font-size: 20px;
+      font-family: Georgia;
+      cursor: pointer;
+      margin: 10px;
+  }
+  
+  button:hover{
+      color:white;
+      background-color: rgb(83, 8, 112);
+  }
+  
+  @media (max-width: 768px) {
+      /* Stiländerungen für button auf kleineren Bildschirmen */
+      button {
+        font-size: 24px;
+      }
+    }

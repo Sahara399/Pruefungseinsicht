@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="firstpage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+              <div style="align:top; align:left">
+                  <img class="Foto1" src="https://www.haw-landshut.de/fileadmin/Resources/Public/Images/landshut_logo.jpg" 
+                  heigt="100" width="100" alight="top" alight="left" alt="Hoschule Landshut" border="2"> 
+              </div>
+          
+              <li><a href="https://www.haw-landshut.de/">Startseite</a></li>
+              <li><a href="https://www.haw-landshut.de/studium.html">Studium</a></li>
+              <li><a href="https://www.haw-landshut.de/forschung.html">Forschung</a></li>
+              <li><a href="https://www.haw-landshut.de/weiterbildung.html">Weiterbildung</a></li>
+              <li><a href="https://www.haw-landshut.de/weiterbildung/kooperationen.html">Kooperationen</a></li>
+              <li><a href="https://www.haw-landshut.de/aktuelles.html">Aktuelles</a></li>
+          
+            </ul>
+          </nav>
+        <h1 align="center">Zugang zur Anmeldung für die Prüfungseinsicht</h1>
+
+    </header>
+    <body>
+        <div>
+                <!-- Section unterteilt in Abschnitte -->
+                <section> 
+                    <label for="user">Benutzerkennung</label>
+                    <input class="user" type="text" name="user" size="20"/>
+                </section>
+                <section>
+                    <label for="password">Passwort</label>
+                    <input class="passwordbutton" type="password" name="pass" size="20"/>
+                </section>
+                <br>
+                <section align="center">
+                    <button class="submitbutton" id="submiter" type="submit">Anmelden</button>
+                </section>
+        </div>
+
+        <script> document.getElementById("submiter").addEventListener("click", function() 
+        {window.location.href = "fak.html";});
+    </script>
+            
+</div>
+</body>
+</html>

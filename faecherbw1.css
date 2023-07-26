@@ -1,0 +1,148 @@
+
+/* Center the content vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+/* Main heading style */
+h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 36px;
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Checkbox container */
+.checkboxen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Checkbox style */
+.button-like-checkbox {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button-like-checkbox:hover,
+.button-like-checkbox.clicked {
+  background-color: #555;
+  color: white;
+}
+*/
+
+/* Checkbox icon */
+.button-like-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.button-like-checkbox::before {
+  content: none;  
+}
+
+/* Confirm button style */
+button.bestaetigen_button {
+  font-size: 24px;
+  background-color: #3d1dbd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.bestaetigen_button:hover {
+  background-color: #610d6a;
+}
+
+  /* Neuer Stil für das Bild */
+  .navbar img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  /* Basis-Styling für die Startleiste */
+  .navbar {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #4e4949;
+    }
+    
+    /* Stil für einzelne Menüpunkte (Listenelemente) */
+    .navbar li {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    
+    /* Stil für Links (anklickbare Elemente) */
+    .navbar li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Hover-Effekt für die Links */
+    .navbar li a:hover {
+      background-color: #555;
+    }
+    
+    /* Optional: Aktiver Link-Stil */
+    .navbar li a.active {
+      background-color: #4CAF50;
+    }
+  
+    @media (max-width: 768px) {
+      /* Stiländerungen für button auf kleineren Bildschirmen */
+      .navbar li {
+        font-size: 24px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      /* Stiländerungen für button auf kleineren Bildschirmen */
+      .navbar li a {
+        font-size: 24px;
+      }
+    }
+    
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .button-like-checkbox {
+    font-size: 20px;
+    padding: 8px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  button.bestaetigen_button {
+    font-size: 20px;
+  }
+  
+  .navbar li {
+    font-size: 18px;
+  }
+}
